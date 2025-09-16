@@ -1,0 +1,71 @@
+{
+  "node": {
+    "7f8433adbdd049d65c054aae336e5ddb66cba58805": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f8433adbdd049d65c054aae336e5ddb66cba58805%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227fe574439f5554ff8ff8aa0c81ebd883f7d5117cc7%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ff6c7aab5648bcad390e5930202ce88ee2d397508%22%2C%22exportedName%22%3A%22detectKeylessEnvDriftAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ffb4c18d278df6c8534638df4742aad6209223865%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "../C:\\Users\\hamao\\Downloads\\internship-management (3)\\internship-management\\node_modules\\@clerk\\nextjs\\dist\\esm\\app-router\\keyless-actions.js",
+      "exportedName": "createOrReadKeylessAction"
+    },
+    "7fe574439f5554ff8ff8aa0c81ebd883f7d5117cc7": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f8433adbdd049d65c054aae336e5ddb66cba58805%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227fe574439f5554ff8ff8aa0c81ebd883f7d5117cc7%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ff6c7aab5648bcad390e5930202ce88ee2d397508%22%2C%22exportedName%22%3A%22detectKeylessEnvDriftAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ffb4c18d278df6c8534638df4742aad6209223865%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "../C:\\Users\\hamao\\Downloads\\internship-management (3)\\internship-management\\node_modules\\@clerk\\nextjs\\dist\\esm\\app-router\\keyless-actions.js",
+      "exportedName": "syncKeylessConfigAction"
+    },
+    "7ff6c7aab5648bcad390e5930202ce88ee2d397508": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f8433adbdd049d65c054aae336e5ddb66cba58805%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227fe574439f5554ff8ff8aa0c81ebd883f7d5117cc7%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ff6c7aab5648bcad390e5930202ce88ee2d397508%22%2C%22exportedName%22%3A%22detectKeylessEnvDriftAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ffb4c18d278df6c8534638df4742aad6209223865%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "../C:\\Users\\hamao\\Downloads\\internship-management (3)\\internship-management\\node_modules\\@clerk\\nextjs\\dist\\esm\\app-router\\keyless-actions.js",
+      "exportedName": "detectKeylessEnvDriftAction"
+    },
+    "7ffb4c18d278df6c8534638df4742aad6209223865": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%2C%5B%7B%22id%22%3A%227f8433adbdd049d65c054aae336e5ddb66cba58805%22%2C%22exportedName%22%3A%22createOrReadKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227fe574439f5554ff8ff8aa0c81ebd883f7d5117cc7%22%2C%22exportedName%22%3A%22syncKeylessConfigAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ff6c7aab5648bcad390e5930202ce88ee2d397508%22%2C%22exportedName%22%3A%22detectKeylessEnvDriftAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%2C%7B%22id%22%3A%227ffb4c18d278df6c8534638df4742aad6209223865%22%2C%22exportedName%22%3A%22deleteKeylessAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Ckeyless-actions.js%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "rsc"
+      },
+      "filename": "../C:\\Users\\hamao\\Downloads\\internship-management (3)\\internship-management\\node_modules\\@clerk\\nextjs\\dist\\esm\\app-router\\keyless-actions.js",
+      "exportedName": "deleteKeylessAction"
+    },
+    "7fb2ff500289217632b495d11de95ab3a1984e224a": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%2C%5B%7B%22id%22%3A%227fb2ff500289217632b495d11de95ab3a1984e224a%22%2C%22exportedName%22%3A%22invalidateCacheAction%22%2C%22filename%22%3A%22..%2FC%3A%5C%5CUsers%5C%5Chamao%5C%5CDownloads%5C%5Cinternship-management%20(3)%5C%5Cinternship-management%5C%5Cnode_modules%5C%5C%40clerk%5C%5Cnextjs%5C%5Cdist%5C%5Cesm%5C%5Capp-router%5C%5Cserver-actions.js%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser"
+      },
+      "filename": "../C:\\Users\\hamao\\Downloads\\internship-management (3)\\internship-management\\node_modules\\@clerk\\nextjs\\dist\\esm\\app-router\\server-actions.js",
+      "exportedName": "invalidateCacheAction"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "OGaLApSiqJEnIA0+0SKmb7hYGtDRJe7/OX5aF+xvW6o="
+}

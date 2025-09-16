@@ -1,0 +1,163 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  clerkId   String   @unique
+  email     String   @unique
+  firstName String?
+  lastName  String?
+  role      UserRole @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Profile information
+  profile Profile?
+
+  // Applications
+  applications Application[]
+
+  // Submissions
+  submissions Submission[]
+
+  @@map("users")
+}
+
+model Profile {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  cvUrl       String?
+  education   String?
+  skills      String[] // Array of skills
+  experience  String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("profiles")
+}
+
+model Internship {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  duration    Int      // Duration in months
+  capacity    Int      // Number of available positions
+  startDate   DateTime
+  endDate     DateTime
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Learning path
+  learningPathId String?
+  learningPath   LearningPath? @relation(fields: [learningPathId], references: [id])
+
+  // Applications
+  applications Application[]
+
+  @@map("internships")
+}
+
+model LearningPath {
+  id          String   @id @default(cuid())
+  title       String
+  description String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Tasks
+  tasks Task[]
+
+  // Internships using this path
+  internships Internship[]
+
+  @@map("learning_paths")
+}
+
+model Task {
+  id             String      @id @default(cuid())
+  title          String
+  description    String
+  content        String?     // Text content or video URL
+  contentType    ContentType @default(TEXT)
+  deadlineOffset Int         // Days from internship start
+  order          Int         // Order in the learning path
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  // Learning path
+  learningPathId String
+  learningPath   LearningPath @relation(fields: [learningPathId], references: [id], onDelete: Cascade)
+
+  // Submissions
+  submissions Submission[]
+
+  @@map("tasks")
+}
+
+model Application {
+  id           String            @id @default(cuid())
+  userId       String
+  user         User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  internshipId String
+  internship   Internship        @relation(fields: [internshipId], references: [id], onDelete: Cascade)
+  status       ApplicationStatus @default(PENDING)
+  appliedAt    DateTime          @default(now())
+  reviewedAt   DateTime?
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+
+  @@unique([userId, internshipId])
+  @@map("applications")
+}
+
+model Submission {
+  id           String           @id @default(cuid())
+  userId       String
+  user         User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  taskId       String
+  task         Task             @relation(fields: [taskId], references: [id], onDelete: Cascade)
+  githubUrl    String
+  status       SubmissionStatus @default(PENDING)
+  feedback     String?
+  submittedAt  DateTime         @default(now())
+  reviewedAt   DateTime?
+  createdAt    DateTime         @default(now())
+  updatedAt    DateTime         @updatedAt
+
+  @@unique([userId, taskId])
+  @@map("submissions")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum ApplicationStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+}
+
+enum SubmissionStatus {
+  PENDING
+  APPROVED
+  REQUIRES_CHANGES
+}
+
+enum ContentType {
+  TEXT
+  VIDEO
+}
+
