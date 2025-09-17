@@ -1,3 +1,24 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/internships/[id]/route": "app/api/internships/[id]/route.js",
+  "/api/internships/route": "app/api/internships/route.js",
+  "/api/learning-paths/route": "app/api/learning-paths/route.js",
+  "/api/applications/route": "app/api/applications/route.js",
+  "/api/applications/[id]/route": "app/api/applications/[id]/route.js",
+  "/api/learning-paths/[id]/tasks/route": "app/api/learning-paths/[id]/tasks/route.js",
+  "/api/profile/route": "app/api/profile/route.js",
+  "/api/users/[id]/route": "app/api/users/[id]/route.js",
+  "/api/submissions/[id]/route": "app/api/submissions/[id]/route.js",
+  "/api/users/route": "app/api/users/route.js",
+  "/api/submissions/route": "app/api/submissions/route.js",
+  "/admin/internships/page": "app/admin/internships/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/applications/page": "app/admin/applications/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/profile/page": "app/dashboard/profile/page.js",
+  "/admin/users/page": "app/admin/users/page.js",
+  "/dashboard/tasks/[id]/page": "app/dashboard/tasks/[id]/page.js",
+  "/register/page": "app/register/page.js",
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js"
 }
